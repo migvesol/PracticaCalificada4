@@ -1,0 +1,17 @@
+current directory: /home/miguelubuntu/Escritorio/CC3S2/Actividad_Rails-Avanzado/Desarrollo-software-2023/Semana7/myrottenpotatoes/.bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+/home/miguelubuntu/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/miguelubuntu/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20231113-9469-dp4k8y.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/miguelubuntu/Escritorio/CC3S2/Actividad_Rails-Avanzado/Desarrollo-software-2023/Semana7/myrottenpotatoes/.bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/miguelubuntu/Escritorio/CC3S2/Actividad_Rails-Avanzado/Desarrollo-software-2023/Semana7/myrottenpotatoes/.bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/miguelubuntu/Escritorio/CC3S2/Actividad_Rails-Avanzado/Desarrollo-software-2023/Semana7/myrottenpotatoes/.bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -m 0755 cparse.so ./.gem.20231113-9469-2tf4r3/racc
