@@ -1,5 +1,5 @@
 -# add to end of index.html.haml
- 
+
 = link_to 'Add new movie', new_movie_path
 
 %h1 All Movies
@@ -7,15 +7,17 @@
 %table#movies
   %thead
     %tr
+      %th Nro
       %th Movie Title
       %th Rating
       %th Release Date
       %th More Info
   %tbody
     - @movies.each do |movie|
-      %tr 
+      %tr.row-hover{:onmouseover => "this.style.backgroundColor='#FFFF00'", :onmouseout => "this.style.backgroundColor=''"}
         %td= movie.id 
         %td= movie.title 
         %td= movie.rating
         %td= movie.release_date
         %td= link_to "More about #{movie.title}", movie_path(movie)
+
